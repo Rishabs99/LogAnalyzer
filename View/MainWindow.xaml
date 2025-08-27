@@ -207,12 +207,12 @@
 
                         <!-- Bind to TechStudioBrowseCommand -->
                         <Button Grid.Column="1" Content="Browse"
-                    Command="{Binding TechStudioBrowseCommand}" Margin="0,0,10,0"
+                    Command="{Binding BrowseCommand}" Margin="0,0,10,0"
                     Style="{StaticResource AppButton}"/>
 
                         <!-- Bind to TechStudioDownloadMfgCommand -->
                         <Button Grid.Column="2" Content="Download"
-                    Command="{Binding TechStudioDownloadMfgCommand}" Margin="0,0,10,0"
+                    Command="{Binding Download}" Margin="0,0,10,0"
                     Style="{StaticResource AppButton}"
                     IsEnabled="{Binding CanTechStudioRun}"/>
                     </Grid>
